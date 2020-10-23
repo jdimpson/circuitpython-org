@@ -39,9 +39,12 @@ Gemma M0 features:
 
 Fully assembled and tested Gemma M0 with CircuitPython & example code programmed in.
 
+## Versioning
+
 ## Tutorials
 
-* [Gemma M0 Overview](https://learn.adafruit.com/adafruit-gemma-m0)
+* [Gemma M0 Overview](https://learn.adafruit.com/adafruit-gemma-m0) 
+* Note that the Gemma Default ZIP file referenced in the Gemma M0 Overview document is out of date, and it contains libraries that won't work with CircuitPython image you download here. Instead of using it, you'll need to download the appropriate build [Adafruit bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) that matches the CircuitPython image, and then figure out which libraries you need to copy to the your Gemma M0's lib/ folder(because they won't all fit) to run the default demo program (which you should be sure to backup before upgrading).
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3501)
